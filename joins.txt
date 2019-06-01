@@ -1,0 +1,17 @@
+select a.rid,a.role,b.batchhandled,b.status from register a inner join stillset b on a.rid=b.rid where status='NotApproved'
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Name ,email, mobile,expirence,noofstudent,studentplaced,skills,certification,status,approvel
